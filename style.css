@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: rgb(228, 225, 225);
+    padding: 0 15px;
+}
+.container {
+    margin: 100px auto;
+    max-width: 800px;
+}
+.display-4 {
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+.mb-2 {}
+.h4 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+    
+.mb-5 {}
+.card {
+    min-height: 150px;
+}
+.card:not(:last-child) {
+    margin-bottom: 3px;
+}
+.mb-4 {}
+.list-group {}
+.list-group-flush {}
+.list-group-item {
+    background-color: antiquewhite;
+}
+.empty-list {
+    text-align: center;
+    padding: 20px;
+    min-height: 140px;
+}
+.empty-list__title {
+    margin-top: 10px;
+}
+.fa-solid{
+    font-size: 30px;
+}
+.d-flex {
+    border-top: 2px solid rgb(194, 187, 187);
+}
+.justify-content-between {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px ;
+}
+.task-item {}
+.task-title {}
+.task-item__buttons {}
+.btn-action {
+    border: none;
+    background: none;
+}
+.fa-square-check, .fa-square-xmark{
+    font-size: 20px;
+}
+.bg-light {}
+.card-header {
+    background-color: rgb(248, 218, 176);
+    padding: 10px 20px;
+}
+.card-body {
+    background-color: rgb(223, 205, 181);
+}
+.form-group {
+    padding: 10px 20px;
+    
+}
+.form-control {
+    width: 100%;
+    padding: 0 0 0 10px;
+}
+.form-text {
+    font-size: 10px;
+}
+.text-muted {}
+.btn {
+    width: 70px;
+    height: 30px;
+    background-color: rgb(130, 130, 247);
+    border-radius: 5px;
+    /* border: none; */
+    color: antiquewhite;
+    margin: 0 0 10px 20px;
+}
+.btn-primary {}
+.btn-lg {}
+.active {}
+.none{
+    display: none !important;
+}
+.done{
+    text-decoration: line-through;
+    color: rgb(181, 179, 179);
+}
+/* при клике курсов проходит сквозь кортинку */
+.btn-action i{
+    pointer-events: none;
+}
+.button-done{
+    color: rgb(118, 185, 18);
+    transition: 0.4s ease-in-out;
+}
+.button-done:hover{
+    color: rgb(78, 128, 9);
+    transition: 0.4s ease-in-out;
+}
+.changeColor{
+    color: rgb(198, 196, 196);
+}
+.changeColor:hover{
+    color: rgb(95, 93, 93);
+}
+.button-delete{
+    color: rgb(220, 76, 36);
+    transition: 0.4s ease-in-out;
+}
+.button-delete:hover{
+    color: rgb(141, 49, 24);
+    transition: 0.4s ease-in-out;
+}
